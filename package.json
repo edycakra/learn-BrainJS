@@ -1,0 +1,23 @@
+{
+  "name": "learn-BrainJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "count.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edycakra/learn-BrainJS.git"
+  },
+  "keywords": [],
+  "author": "Edycakra Sinaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edycakra/learn-BrainJS/issues"
+  },
+  "homepage": "https://github.com/edycakra/learn-BrainJS#readme",
+  "dependencies": {
+    "brain.js": "^2.0.0-alpha.12"
+  }
+}
