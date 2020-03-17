@@ -2,7 +2,7 @@ const brain = require('brain.js')
 
 const trainingData = [
     'nama saya cakra',
-    'saya peserta hacktiv8 bootcamp',
+    'saya adalah peserta hacktiv8 bootcamp',
     'saya sedang menjalani fase 3',
     'belajar di hacktiv8 sangat menyenangkan'
 ]
@@ -10,12 +10,12 @@ const trainingData = [
 const network = new brain.recurrent.LSTM()
 
 network.train(trainingData, {
-    iterations: 1000,
+    iterations: 2000,
     log: stats => {
         console.log(stats)
     }
 })
 
-const queryString = 'menjalani'
+const queryString = 'cakra'
 
-console.log(queryString + network.run(queryString))
+console.log(queryString + ' - ' + network.run(queryString))
